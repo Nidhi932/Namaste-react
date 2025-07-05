@@ -1,0 +1,57 @@
+#heading {
+  color: red;
+  font-weight: 700;
+}
+.logo > img {
+  width: 100px;
+  height: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo > ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 12px 12px;
+  place-items: center;
+}
+.cards > img {
+  width: 210px;
+  height: 150px;
+}
+.cards:hover {
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px gray;
+}
+.cards {
+  width: 210px;
+  padding: 5px;
+}
+.search-box > input {
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-box > button {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search-box {
+  display: flex;
+  place-items: center;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
