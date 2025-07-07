@@ -55,3 +55,22 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.skeleton {
+  width: 210px;
+  height: 300px;
+  padding: 5px;
+  box-shadow: 1px #d3d3d3;
+  background-color: #f0f0f0;
+}
+
+.shimmer-img {
+  width: 210px;
+  height: 150px;
+  background-color: gray;
+}
+.shimmer-body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
